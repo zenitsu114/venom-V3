@@ -186,7 +186,7 @@ def handle_bgmi(message):
             try:
                 port = int(command[2])
                 time = int(command[3])
-                if time > 240:
+                if time > 300:
                     response = "⚠️𝐄𝐑𝐑𝐎𝐑:170 𝐒𝐄 𝐓𝐇𝐎𝐃𝐀 𝐊𝐀𝐌 𝐓𝐈𝐌𝐄 𝐃𝐀𝐀𝐋 𝐆𝐀𝐍𝐃𝐔."
                 else: 
                     record_command_logs(user_id, '/bgmi', target, port, time)
